@@ -1,0 +1,184 @@
+/* --------------------------------------Product--background-img------------------------------- */
+.product-img {
+    background-image: url(../images/product-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    padding-bottom: 270px;
+    margin-top: -49px;
+  }
+  .product-title {
+    /* padding: 130px 38px; */
+    position: relative;
+    top: 160px;
+    /* left: 47px; */
+    color: #fff;
+    line-height: 20px;
+  }
+  .product-title p {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .product-title a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .product-title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  /* ---------------------------------------Postlist----------------------------- */
+  .postlist p {
+    margin: 40px 0 49px;
+  }
+  .postlist1 {
+    border: 1px solid #d5d5d5;
+    margin: 10px auto 42px;
+    text-align: center;
+  }
+  .postlist1 .postlist-img img {
+    padding: 37px 0;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    height: 270px;
+  }
+  .postlist1 .postlist-body {
+    background: #fafafa;
+    padding: 20px 0 30px;
+  }
+  .postlist1 .postlist-body h5 {
+    font-weight: bold;
+  }
+  .postlist1 .postlist-body p {
+    color: #545454;
+  }
+  .postlist1 .postlist-body a {
+    position: relative;
+    z-index: 1;
+    border: none;
+    padding: 13px 59px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 4px 2px;
+    color: #fff;
+  }
+  .postlist1 .postlist-body a:hover {
+    color: #111111;
+    border: 1px solid #333333;
+  }
+  .postlist1 .postlist-body a:before, .postlist1 .postlist-body a:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #02b3f9;
+    z-index: -1;
+    transition: .3s all ease;
+  }
+  .postlist1 .postlist-body a:hover:before, .postlist1 .postlist-body a:hover:after {
+    width: 0;
+  }
+  .postlist-pv-next {
+    text-align: center;
+    margin: 0 auto 0;
+  }
+  .postlist-pv-next .current-1 {
+    background-color: #ebe9eb;
+    padding: 7px;
+    text-decoration: none;
+  }
+  .postlist-pv-next .current-2 {
+    background-color: #02b3f9;
+    padding: 7px 9px;
+    margin: 0 -5px 0;
+    color: #fff;
+  }
+  .postlist-pv-next .current-next {
+    background-color: #02b3f9;
+    padding: 7px 15px;
+    color: #fff;
+    margin:0 2px;
+  }
+  /*------------------------------------ Monitor Ipad-Pro Portrial */
+  @media (max-width:1024px) {
+    .postlist p {
+      margin: 15px 0;
+    }
+    .postlist1 {
+      margin: 10px auto 15px;
+    }
+    .news h4 {
+      margin: 20px 0;
+    } 
+    .news-1 p, .news-2 p {
+      margin-top: 0;
+    }
+  }
+/*------------------------------------ Monitor Ipad Portrial */
+  @media (max-width: 780px){
+  .block-header-top .block-header-top--contact{
+    padding: 7rem 0 1rem;
+  }
+  
+  .header-top-contact--item {
+    left: 0px;
+  }
+  .header-top-contact--item .block-content h3 {
+    font-size: 20px;
+  }
+  .header-top-contact--item .block-content p {
+    font-size: 15px;
+  }
+  .postlist1 {
+    margin: 10px 0 8px;
+  }
+  .postlist1 .postlist-img img {
+    max-width: 100%;
+  }
+  .postlist p {
+    margin: 20px 0 15px;
+  }
+  .postlist-pv-next {
+    margin: 15px auto 0;
+  }
+  .news-2 p {
+    margin: 0 0 10px;
+  }
+  .news-1 p {
+    margin: 37px 0 10px;
+  }
+  .news h4 {
+    margin: 22px 0;
+  }
+}
+/*------------------------------------ Monitor Mobile Portrial */
+@media (max-width:414px) {
+  .header-top-contact--item {
+    left: -20px;
+  }
+  .header-top-contact--item .block-content h3 {
+    font-size: 8px;
+  }
+  .header-top-contact--item .block-content p {
+    font-size: 8px;
+  }
+  .postlist p {
+    margin: 20px 0 15px;
+  }
+  .block-header-top .block-header-top--contact {
+    padding: 7rem 0 1rem;
+  }
+  .postlist1 {
+    margin: 5px 8px 15px;
+  }
+  .news-1 p {
+    margin: 0;
+  }
+}

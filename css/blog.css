@@ -1,0 +1,189 @@
+/* -------------------------------------Blogs------------------------------ */
+.blog {
+  margin: 20px 0 40px;
+}
+.blog i,
+.blog span {
+  color: #666666;
+}
+.blog-page .blog-info {
+  margin: 15px 0;
+}
+.blog-page .blog-info a {
+  margin-right: 18px;
+}
+.blog-page h5 {
+  color: #02b3f9;
+}
+.blog-page h5:hover {
+  color: #eb8c0a;
+}
+.blog-page p {
+  color: #838383;
+  margin-bottom: 50px;
+}
+.category .category-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #02b3f9;
+  margin: -3px 0 30px;
+}
+.category ul {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.category ul li {
+  margin-bottom: 1rem;
+  margin-left: -40px;
+}
+.category ul li a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.category ul li a:hover {
+  color: #eb8c0a;
+}
+.category .robotics {
+  display: flex;
+}
+.category .robotics img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 45px;
+}
+.category .robotics .robotics-body {
+  margin-left: 15px;
+}
+.category .robotics .robotics-body h5 {
+  padding: 0 0 20px;
+}
+.category .robotics .robotics-body h5:hover {
+  color: #eb8c0a;
+}
+.pagination {
+  border-top: 1px solid #999999;
+  border-radius: 0;
+}
+.pagination .page {
+  display: flex;
+  list-style: none;
+  margin-top: 15px;
+}
+.pagination .page li {
+  padding: 0 20px 0;
+}
+.pagination .page-item-prev a {
+  color: #6c757d;
+}
+.pagination .page-item-1 a {
+  border: 2px solid #02b3f9;
+  padding: 0 10px 0;
+  background-color: #ebe9eb;
+}
+.pagination .page-item-2 a:hover,
+.pagination .page-item-3 a:hover,
+.pagination .page-item-next a:hover {
+  border: 2px solid #02b3f9;
+  padding: 0 10px 0;
+  background-color: #ebe9eb;
+}
+/*------------------------------------ Monitor Ipad-Pro Portrial */
+@media (max-width:1024px) {
+  .icons img {
+    padding: 0;
+  }
+  .blog {
+    margin: 15px 0;
+  }
+  .blog-page p {
+    margin-bottom: 15px;
+  }
+}
+/*------------------------------------ Monitor Ipad Portrial */
+@media (max-width: 780px) {
+  /* .block-header-top .block-header-top--contact {
+    padding: 7rem 0 1rem;
+  } */
+  .header-top-contact--item {
+    left: -100px;
+  }
+  .header-top-contact--item .block-content h3 {
+    font-size: 13px;
+  }
+  .header-top-contact--item .block-content p {
+    font-size: 13px;
+  }
+
+  .category .category-title {
+    margin: 10px 0;
+  }
+  .category ul {
+    margin-bottom: 0;
+  }
+  .category .robotics img {
+    margin-bottom: 15px;
+  }
+  .blog {
+    margin: 15px 0;
+  }
+  .blog-thumb img {
+    width: 100%;
+  }
+  .blog-page p {
+    margin-bottom: 15px;
+  }
+  .blog-page h5 {
+    font-size: 15px;
+  }
+}
+/*------------------------------------ Monitor Mobile Portrial */
+@media (max-width: 414px) {
+  .header-top-contact--item {
+    left: -20px;
+  }
+  .header-top-contact--item .block-content h3 {
+    font-size: 8px;
+  }
+  .header-top-contact--item .block-content p {
+    font-size: 8px;
+  }
+  /* .block-header-top .block-header-top--contact {
+    padding: 7rem 0 1rem;
+  } */
+  .blog {
+    margin: 15px 0;
+  }
+  .blog-page p {
+    margin-bottom: 15px;
+  }
+  .blog-thumb img {
+    width: 100%;
+  }
+  .icons {
+    margin: 0 auto;
+    display: table;
+  }
+  .category .category-title {
+    margin: 10px 0;
+  }
+  .category ul {
+    margin-bottom: 20px;
+  }
+  .category .robotics img {
+    margin-bottom: 15px;
+  }
+  .pagination .page {
+    padding: 0 10px 0;
+  }
+}
+@media (max-width: 320px) {
+  .pagination .page {
+    padding: 0;
+  }
+  .pagination .page li {
+    padding: 0 17px 0;
+  }
+}
+
+

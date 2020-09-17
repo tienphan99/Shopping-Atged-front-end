@@ -1,0 +1,89 @@
+.contact {
+    margin: 20px 0 40px;
+  }
+.contact i,.contact span {
+    color: #666666;
+}
+#map {
+    margin-top: 30px;
+}
+.contact-info h2 {
+    margin: 20px 0;
+    font-size: 42px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    color: #464646;
+}
+.contact-info p {
+    margin-bottom: 20px;
+}
+.contact-info ul {
+    list-style: none;
+}
+.contact-info ul li {
+    margin-left: -40px;
+}
+.contact-info ul li a {
+    color: #02b3f9;
+    text-decoration: underline;
+}
+.contact-info ul li a:hover {
+    color: #02b3f9;
+    text-decoration: none;
+}
+.contact-info h4 {
+    color: #02b3f9;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+.contact-info .contact-icon img {
+    width: 5%;
+}
+.contact-info .contact-icon img:hover {
+    transform: scale(1.2);
+    transition: .5s all ease;
+}
+.contact-form h2 {
+    margin: 20px 0;
+    font-size: 42px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    color: #464646;
+}
+.form-group input {
+    height: 48px;
+    border-radius: 0;
+}
+.form-group textarea {
+    border-radius: 0;
+}
+.btn {
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    background: transparent;
+    border-radius: 0;
+    padding: 10px 20px;
+}
+.btn:hover {
+    color: #111111;
+    border: 1px solid #333333;
+}
+.btn:before, .btn:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #02b3f9;
+    z-index: -1;
+    width: 100%;
+    transition: .3s all ease;
+}
+.btn:hover:before, .btn:hover:after {
+    width: 0;
+}
